@@ -2,8 +2,7 @@
     if joined quit
     set joined 1
     cmd /tp 506 50 505
-    call #loop
-    //AAAAAAAAAAAAAAAAAAAAAAA
+    goto #loop
 quit
 
 
