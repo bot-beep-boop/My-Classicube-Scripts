@@ -26,7 +26,7 @@ quit
     cpemsg announce {countdown}
     delay 1000
     setadd countdown -1
-    if {countdown}|>|0 goto #{runArg1}
+    if {countdown} 0 goto #{runArg1}
 quit
 
 #input
