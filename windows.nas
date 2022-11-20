@@ -44,9 +44,9 @@ quit
 quit
 
 #loop
-    cpemsg bot1 &a&lRealm by WindowsWhistler
-    cpemsg bot2 &a&lWorld Name: WindowsWhistler+
-    cpemsg bot3 &a&l/goto WindowsWhistler+
+    cpemsg bot1 &sRealm by WindowsWhistler
+    cpemsg bot2 &sWorld Name: WindowsWhistler+
+    cpemsg bot3 &a/goto WindowsWhistler+
     delay 100
     goto #loop
 quit
