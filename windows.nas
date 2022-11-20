@@ -1,3 +1,12 @@
+#joinblock
+    if joined quit
+    set joined 1
+    call #loop
+    //AAAAAAAAAAAAAAAAAAAAAAA
+    msg /tp 506 50 505
+quit
+
+
 #quiz1
     msg &oJeremaster: &xWhat is this server's name?
     delay msgDelay
@@ -86,12 +95,4 @@ quit
     msg &aWarping to parkour...
     msg /tp 602 100 491
     motd -hax
-quit
-
-#joinblock
-    if joined quit
-    set joined 1
-    call #loop
-    //AAAAAAAAAAAAAAAAAAAAAAA
-    msg /tp 506 50 505
 quit
