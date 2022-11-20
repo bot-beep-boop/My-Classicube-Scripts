@@ -12,6 +12,12 @@
     definehotkey 2|RIGHT
     definehotkey 3|UP
     definehotkey 4|DOWN
+
+quit
+
+#loop
+    cpemsg bot1 &a&lMovement Script by WindowsWhistler
+    delay 100
 quit
 
 #input
@@ -20,6 +26,9 @@ quit
     set up 3
     set down 4
 
+
+    // Movement Calls (Left, Right, Up, Down)
+    // if spam :desolate:
     if runArg1|=|left call #left
 
     if runArg1|=|right call #right
