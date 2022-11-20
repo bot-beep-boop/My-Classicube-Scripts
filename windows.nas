@@ -1,9 +1,9 @@
 #joinblock
     if joined quit
     set joined 1
+    msg /tp 506 50 505
     call #loop
     //AAAAAAAAAAAAAAAAAAAAAAA
-    msg /tp 506 50 505
 quit
 
 
