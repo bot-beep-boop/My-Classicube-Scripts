@@ -92,5 +92,5 @@ quit
     if joined quit
     set joined 1
     call #loop
-    msg tp 506 50 505
+    msg /tp 506 50 505
 quit
