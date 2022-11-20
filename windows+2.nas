@@ -1,6 +1,6 @@
 #npc2
     tempblock 0 {ex} {ey} {ez}
-    set playerBlock 0
+    set playerBlock 26
     // Set Default position
     set ey 52
     set ex 485
@@ -25,7 +25,7 @@ quit
     if runArg1|=|right call #right
 
     if runArg1|=|up call #up
-    
+
     if runArg1|=|down call #down
 quit
 
