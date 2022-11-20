@@ -1,6 +1,6 @@
 #npc2
     tempblock 0 {ex} {ey} {ez}
-    set playerBlock 26
+    delay 1000
     // Set Default position
     set ey 52
     set ex 485
