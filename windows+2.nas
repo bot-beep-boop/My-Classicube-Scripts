@@ -6,7 +6,7 @@
     set ex 485
     set ez 456
     // Place Player
-    tempblock {playerBlock} {ex} {ey} {ez}
+    tempblock 26 {ex} {ey} {ez}
     // Keybinds
     definehotkey 1|LEFT
     definehotkey 2|RIGHT
@@ -32,24 +32,24 @@ quit
 #left
     tempblock 0 {ex} {ey} {ez}
     setadd ez -1
-    tempblock {playerBlock} {ex} {ey} {ez}
+    tempblock 26 {ex} {ey} {ez}
 quit
 
 #right
     tempblock 0 {ex} {ey} {ez}
     setadd ez 1
-    tempblock {playerBlock} {ex} {ey} {ez}
+    tempblock 26 {ex} {ey} {ez}
 quit
 
 #up
     tempblock 0 {ex} {ey} {ez}
     setadd ey 1
-    tempblock {playerBlock} {ex} {ey} {ez}
+    tempblock 26 {ex} {ey} {ez}
 quit
 
 #down
     tempblock 0 {ex} {ey} {ez}
     setadd ey -1
-    tempblock {playerBlock} {ex} {ey} {ez}
+    tempblock 26 {ex} {ey} {ez}
 quit
 
