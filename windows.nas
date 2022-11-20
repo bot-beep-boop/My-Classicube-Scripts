@@ -1,7 +1,8 @@
 #joinblock
     if joined quit
+    if cef|=|true msg Map Theme: https://www.youtube.com/watch?v=lKj266OR7aY
+    if cef|=|false msg Aww you don't have CEF Installed.
     set joined 1
-    cmd /tp 506 50 505
     goto #loop
 quit
 
