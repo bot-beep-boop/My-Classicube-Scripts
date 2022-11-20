@@ -1,4 +1,11 @@
 #npc2
+    set countdown 3
+    goto #countdown|npc3
+quit
+
+#npc3
+    msg /tp 477 55 460
+    freeze
     tempblock 0 {ex} {ey} {ez}
     delay 1000
     // Set Default position
@@ -12,13 +19,14 @@
     definehotkey 2|RIGHT
     definehotkey 3|UP
     definehotkey 4|DOWN
-
 quit
 
-#loop
-    cpemsg bot1 &a&lMovement Script by WindowsWhistler
-    delay 100
-    goto #loop
+#countdown
+    // Set Default number
+    cpemsg announce {countdown}
+    delay 1000
+    setadd countdown -1
+    if {countdown} | > | 0 goto #{runArg1}
 quit
 
 #input
