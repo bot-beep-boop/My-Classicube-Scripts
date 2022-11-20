@@ -18,6 +18,7 @@ quit
 #loop
     cpemsg bot1 &a&lMovement Script by WindowsWhistler
     delay 100
+    goto #loop
 quit
 
 #input
