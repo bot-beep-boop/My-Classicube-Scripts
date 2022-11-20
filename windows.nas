@@ -34,6 +34,14 @@ quit
     msg /tp 506 50 505
 quit
 
+#loop
+    cpemsg bot1 &a&lRealm by WindowsWhistler
+    cpemsg bot2 &a&lWorld Name: WindowsWhistler+
+    cpemsg bot3 &a&l/goto WindowsWhistler+
+    delay 100
+    goto #loop
+quit
+
 #rewardsnpc
     if hasTalkedToRewards quit
     if DoneQuiz|<|1 quit
@@ -80,8 +88,9 @@ quit
     motd -hax
 quit
 
-#join
+#joinblock
     if joined quit
-    set joined true
-    cpemsg announce &rWelcome back!
+    set joined 1
+    call #loop
+    tp 506 50 505
 quit
